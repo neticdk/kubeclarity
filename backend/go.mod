@@ -24,13 +24,14 @@ require (
 	gorm.io/driver/sqlite v1.2.6
 	gorm.io/gorm v1.25.9
 	gotest.tools v2.2.0+incompatible
-	k8s.io/api v0.30.2
-	k8s.io/apimachinery v0.30.2
-	k8s.io/client-go v0.30.2
+	k8s.io/api v0.32.2
+	k8s.io/apimachinery v0.32.2
+	k8s.io/client-go v0.32.2
 )
 
 require (
 	cloud.google.com/go/compute/metadata v0.6.0 // indirect
+	dario.cat/mergo v1.0.1 // indirect
 	github.com/Azure/azure-sdk-for-go v68.0.0+incompatible // indirect
 	github.com/Azure/go-autorest v14.2.0+incompatible // indirect
 	github.com/Azure/go-autorest/autorest v0.11.29 // indirect
@@ -43,8 +44,8 @@ require (
 	github.com/CycloneDX/cyclonedx-go v0.9.0 // indirect
 	github.com/Masterminds/goutils v1.1.1 // indirect
 	github.com/Masterminds/semver v1.5.0 // indirect
-	github.com/Masterminds/semver/v3 v3.2.1 // indirect
-	github.com/Masterminds/sprig/v3 v3.2.3 // indirect
+	github.com/Masterminds/semver/v3 v3.3.0 // indirect
+	github.com/Masterminds/sprig/v3 v3.3.0 // indirect
 	github.com/acobaugh/osrelease v0.1.0 // indirect
 	github.com/anchore/go-logger v0.0.0-20230725134548-c21dafa1ec5a // indirect
 	github.com/anchore/go-struct-converter v0.0.0-20221118182256-c68fdcfa2092 // indirect
@@ -93,6 +94,7 @@ require (
 	github.com/emicklei/go-restful/v3 v3.11.0 // indirect
 	github.com/facebookincubator/nvdtools v0.1.5 // indirect
 	github.com/fsnotify/fsnotify v1.8.0 // indirect
+	github.com/fxamacker/cbor/v2 v2.7.0 // indirect
 	github.com/gabriel-vasile/mimetype v1.4.3 // indirect
 	github.com/ghodss/yaml v1.0.0 // indirect
 	github.com/github/go-spdx/v2 v2.2.0 // indirect
@@ -106,7 +108,7 @@ require (
 	github.com/go-openapi/validate v0.24.0 // indirect
 	github.com/go-viper/mapstructure/v2 v2.2.1 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
-	github.com/golang-jwt/jwt/v4 v4.5.0 // indirect
+	github.com/golang-jwt/jwt/v4 v4.5.2 // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/google/gnostic-models v0.6.8 // indirect
@@ -117,8 +119,7 @@ require (
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
-	github.com/huandu/xstrings v1.4.0 // indirect
-	github.com/imdario/mergo v0.3.15 // indirect
+	github.com/huandu/xstrings v1.5.0 // indirect
 	github.com/jackc/chunkreader/v2 v2.0.1 // indirect
 	github.com/jackc/pgconn v1.13.0 // indirect
 	github.com/jackc/pgio v1.0.0 // indirect
@@ -166,7 +167,7 @@ require (
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/sagikazarmark/locafero v0.7.0 // indirect
 	github.com/scylladb/go-set v1.0.3-0.20200225121959-cc7b2070d91e // indirect
-	github.com/shopspring/decimal v1.3.1 // indirect
+	github.com/shopspring/decimal v1.4.0 // indirect
 	github.com/sourcegraph/conc v0.3.0 // indirect
 	github.com/spdx/tools-golang v0.5.4 // indirect
 	github.com/spf13/afero v1.12.0 // indirect
@@ -178,6 +179,7 @@ require (
 	github.com/ulikunitz/xz v0.5.12 // indirect
 	github.com/wagoodman/go-partybus v0.0.0-20230516145632-8ccac152c651 // indirect
 	github.com/wagoodman/go-progress v0.0.0-20230925121702-07e42b3cdba0 // indirect
+	github.com/x448/float16 v0.8.4 // indirect
 	github.com/xi2/xz v0.0.0-20171230120015-48954b6210f8 // indirect
 	go.mongodb.org/mongo-driver v1.14.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
@@ -192,14 +194,15 @@ require (
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20250218202821-56aae31c358a // indirect
 	google.golang.org/grpc v1.71.1 // indirect
 	google.golang.org/protobuf v1.36.6 // indirect
+	gopkg.in/evanphx/json-patch.v4 v4.12.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/klog/v2 v2.120.1 // indirect
-	k8s.io/kube-openapi v0.0.0-20240228011516-70dd3763d340 // indirect
-	k8s.io/utils v0.0.0-20231127182322-b307cd553661 // indirect
-	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
-	sigs.k8s.io/structured-merge-diff/v4 v4.4.1 // indirect
+	k8s.io/klog/v2 v2.130.1 // indirect
+	k8s.io/kube-openapi v0.0.0-20241105132330-32ad38e42d3f // indirect
+	k8s.io/utils v0.0.0-20241104100929-3ea5e8cea738 // indirect
+	sigs.k8s.io/json v0.0.0-20241010143419-9aa6b5e7a4b3 // indirect
+	sigs.k8s.io/structured-merge-diff/v4 v4.4.2 // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect
 )
 
