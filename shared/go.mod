@@ -11,7 +11,6 @@ require (
 	github.com/anchore/grype v0.76.0
 	github.com/anchore/stereoscope v0.0.2-0.20240229175558-fe426d1b1c84
 	github.com/anchore/syft v1.2.0
-	github.com/aquasecurity/go-dep-parser v0.0.0-20230803125501-bd9cf68d8636
 	github.com/aquasecurity/trivy v0.53.0
 	github.com/aquasecurity/trivy-db v0.0.0-20231005141211-4fc651f7ac8d
 	github.com/containers/image/v5 v5.31.1
@@ -157,7 +156,7 @@ require (
 	github.com/dlclark/regexp2 v1.4.0 // indirect
 	github.com/docker/cli v26.1.3+incompatible // indirect
 	github.com/docker/distribution v2.8.3+incompatible // indirect
-	github.com/docker/docker v26.1.3+incompatible // indirect
+	github.com/docker/docker v26.1.5+incompatible // indirect
 	github.com/docker/docker-credential-helpers v0.8.1 // indirect
 	github.com/docker/go-connections v0.5.0 // indirect
 	github.com/docker/go-events v0.0.0-20190806004212-e31b211e4f1c // indirect
