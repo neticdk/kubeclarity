@@ -1,6 +1,8 @@
 module github.com/openclarity/kubeclarity/sbom_db/backend
 
-go 1.19
+go 1.23.0
+
+toolchain go1.24.3
 
 require (
 	github.com/Portshift/go-utils v0.0.0-20211213074910-dd69e9ff3e27
@@ -50,9 +52,9 @@ require (
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/subosito/gotenv v1.2.0 // indirect
 	go.mongodb.org/mongo-driver v1.7.5 // indirect
-	golang.org/x/net v0.17.0 // indirect
-	golang.org/x/sys v0.13.0 // indirect
-	golang.org/x/text v0.13.0 // indirect
+	golang.org/x/net v0.40.0 // indirect
+	golang.org/x/sys v0.33.0 // indirect
+	golang.org/x/text v0.25.0 // indirect
 	google.golang.org/grpc v1.56.3 // indirect
 	gopkg.in/ini.v1 v1.66.2 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
